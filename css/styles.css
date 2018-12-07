@@ -1,30 +1,3 @@
-header {
-  background-color: green;
+.text-center {
   text-align: center;
-  font-size: 35px;
-  font-weight: bold;
-  padding: 40px;
-}
-
-.myNav {
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    background-color: #333;
-}
-/* Remove bullets, margin and padding */
-.myNav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.myNav li {
-    float: left;
-    /* Or you can use display: inline; */
-}
-/* Define the block styling for the links */
-.myNav li a {
-    display: inline-block;
-    text-align: center;
-    padding: 10px 12px;
 }
