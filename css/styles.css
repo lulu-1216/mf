@@ -11,14 +11,38 @@ body {
   background: green;
 }
 
+.logo {
+  float: left;
+  height: 25px;
+  width: 25px;
+}
 .navbar .nav {
   margin-bottom: 0px;
+  display: inline-block;
 }
-
 #navbar-margin {
   margin-bottom: 0px !important;
 }
-
 .navbar-dark {
   background: rgb(71 71 71);
+}
+
+.active {
+  background-color: #D3D3D3;
+  color: white;
+}
+
+.footer {
+  background: rgb(71 71 71);
+}
+.footer li{
+  display: inline-block;
+  text-align: center;
+}
+.footer ul{
+  text-align: center;
+}
+
+.float-right {
+  float: right;
 }
